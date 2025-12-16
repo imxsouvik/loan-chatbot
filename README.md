@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+Below is a **concise, one-page executive README** written in a **formal, corporate tone**, suitable for **judges, senior stakeholders, and quick evaluation**.
+No emojis. Clean and professional.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+# Agentic AI–Powered Personal Loan Sales Assistant
 
-## How can I edit this code?
+**BFSI Hackathon – Tata Capital | Challenge II**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Executive Summary
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This project presents an **Agentic AI–driven conversational sales assistant** designed for a large-scale **Non-Banking Financial Company (NBFC)** to increase personal loan conversion rates. The solution uses a **web-based chatbot** that simulates a **human sales executive**, guiding customers from initial engagement through eligibility evaluation and automated sanction letter generation within a single conversation.
 
-Changes made via Lovable will be committed automatically to this repo.
+A central **Master Agent** orchestrates multiple specialized **Worker AI Agents**, enabling seamless coordination of sales, verification, underwriting, and document generation processes.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Business Objective
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Digital loan journeys often suffer from high drop-offs due to manual checks, delayed responses, and fragmented workflows.
+The objective of this solution is to:
 
-Follow these steps:
+* Improve conversion rates from digital channels
+* Automate loan processing while retaining a personalized experience
+* Reduce turnaround time from lead to sanction
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Solution Overview
 
-# Step 3: Install the necessary dependencies.
-npm i
+The system follows an **Agentic AI architecture**:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+* **Master Agent**: Controls the conversation, understands customer intent, triggers worker agents, and manages workflow completion.
+* **Sales Agent**: Collects loan requirements and engages customers in a persuasive, human-like manner.
+* **Verification Agent**: Validates customer KYC data using a dummy CRM system.
+* **Underwriting Agent**: Evaluates credit eligibility using a mock credit bureau API and predefined approval rules.
+* **Sanction Letter Generator**: Produces an automated PDF sanction letter upon approval.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## End-to-End Flow
 
-**Use GitHub Codespaces**
+1. Customer initiates chat via digital ads or marketing campaigns
+2. Loan requirements are captured through conversational interaction
+3. KYC details are verified from a CRM system
+4. Credit eligibility is evaluated based on score, pre-approved limits, and income
+5. Loan is approved or rejected in real time
+6. Sanction letter is generated and delivered within the chat
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Underwriting Logic
 
-This project is built with:
+* Instant approval if loan amount is within pre-approved limit
+* Salary slip required if loan amount is up to two times the pre-approved limit
+* EMI must not exceed 50 percent of monthly salary
+* Rejection if credit score is below 700 or loan exceeds eligibility thresholds
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## Key Value Proposition
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+* Human-like conversational loan sales
+* Real-time decision-making through agent orchestration
+* Reduced manual intervention and faster approvals
+* Scalable architecture for high-volume digital traffic
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## Deliverables
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Web-based Agentic AI chatbot
+* Automated underwriting and approval logic
+* PDF-based sanction letter generation
+* Five-slide presentation showcasing the complete journey
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## Conclusion
+
+This project demonstrates how **Agentic AI can modernize BFSI loan sales** by combining conversational intelligence with automated backend decisioning. The solution delivers higher conversion rates, faster loan sanctions, and a superior customer experience aligned with enterprise BFSI standards.
+
+---
+
+**Prepared for Tata Capital BFSI Hackathon – Challenge II**
