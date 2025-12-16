@@ -1,8 +1,3 @@
-Below is a **concise, one-page executive README** written in a **formal, corporate tone**, suitable for **judges, senior stakeholders, and quick evaluation**.
-No emojis. Clean and professional.
-
----
-
 # Agentic AI–Powered Personal Loan Sales Assistant
 
 **BFSI Hackathon – Tata Capital | Challenge II**
@@ -81,7 +76,3 @@ The system follows an **Agentic AI architecture**:
 ## Conclusion
 
 This project demonstrates how **Agentic AI can modernize BFSI loan sales** by combining conversational intelligence with automated backend decisioning. The solution delivers higher conversion rates, faster loan sanctions, and a superior customer experience aligned with enterprise BFSI standards.
-
----
-
-**Prepared for Tata Capital BFSI Hackathon – Challenge II**
