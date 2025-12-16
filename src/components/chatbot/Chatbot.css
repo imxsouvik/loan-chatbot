@@ -1,0 +1,27 @@
+.chatbot-fab {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.chatbot-window {
+  z-index: 1000;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-up {
+  animation: slide-in-up 0.3s forwards;
+}
